@@ -28,7 +28,7 @@ interface Props {
 function createExternals (t: TFunction): ItemRoute[] {
   return [
     {
-      href: 'https://github.com/setheum-js/console',
+      href: 'https://github.com/finn-exchange/console',
       icon: 'code-branch',
       name: 'github',
       text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' })
