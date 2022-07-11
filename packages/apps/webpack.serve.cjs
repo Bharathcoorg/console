@@ -18,7 +18,7 @@ module.exports = merge(
     },
     plugins: [
       new HtmlWebpackPlugin({
-        PAGE_TITLE: 'Setheum Console',
+        PAGE_TITLE: 'Dfinn Console',
         inject: true,
         template: path.join(__dirname, 'public/index.html')
       }),
