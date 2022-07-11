@@ -19,7 +19,7 @@ module.exports = merge(
       // It must be placed before HtmlWebpackPlugin
       new CopyWebpackPlugin({ patterns: [{ from: '../apps/public' }] }),
       new HtmlWebpackPlugin({
-        PAGE_TITLE: 'Setheum Console',
+        PAGE_TITLE: 'Dfinn Console',
         inject: true,
         template: path.join(context, '../apps/public/index.html')
       })
